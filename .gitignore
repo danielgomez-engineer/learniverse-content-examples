@@ -1,0 +1,38 @@
+# Archivos y carpetas de Spring Boot / Java que NO deben subir a GitHub
+
+### Build Artifacts ###
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+target/
+build/
+bin/
+
+### IDEs ###
+.idea/             # IntelliJ IDEA
+.vscode/           # Visual Studio Code
+*.iml              # Archivos de módulo de IntelliJ
+.settings/         # Eclipse
+.project
+.classpath
+
+### Maven/Gradle ###
+.m2/
+.gradle/
+!**/src/main/**/target/ # Permitir la carpeta target en main si es necesario, aunque generalmente se excluye
+
+# Logs y Temporales
+logs/
+temp/
+tmp/
+*.log
+
+# Entornos de desarrollo
+.env
+.DS_Store          # Archivos de Mac OS
+
+# Lombok
+# No es necesario ignorar si estás usando Lombok como dependencia de Maven/Gradle
