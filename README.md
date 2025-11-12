@@ -12,6 +12,7 @@ Este repositorio centraliza **todo el código fuente y los ejemplos prácticos**
 | **PYTHON**| Ciencia de Datos, Machine Learning y Automatización. | ⏳ Próximamente... |
 | **WEB** | Fundamentos de HTML, CSS y JavaScript moderno. | ⏳ Próximamente... |
 | **CIBERSEGURIDAD** | Introducción a herramientas, defensas y seguridad ofensiva. | ⏳ Próximamente...|
+| **FULLSTACK** | Proyectos FullStack con distintas aplicaciones sencillas y complejas. | [Abrir la carpeta FULLSTACK](FULLSTACK/README.md) |
 
 ---
 

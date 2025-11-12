@@ -1,0 +1,18 @@
+html {
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lista-personas {
+    background-color: lightblue;
+    padding: 20px;
+    border: 1px solid blue;
+    margin: 20px;
+}
+
+.form-persona {
+    background-color: lightgreen;
+    padding: 20px;
+    border: 1px solid green;
+    margin: 20px;
+}

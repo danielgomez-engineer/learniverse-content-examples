@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- Declaración XML estándar -->
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence" version="3.0"> <!-- Namespace de Jakarta Persistence 3.1 -->
+    <persistence-unit name="personasPU" transaction-type="JTA"> <!-- Unidad de persistencia con transacciones JTA -->
+        <jta-data-source>java:jboss/datasources/personasDS</jta-data-source> <!-- Datasource JNDI configurado en WildFly -->
+        <class>domain.Persona</class> <!-- Clase entidad a mapear -->
+        <properties> <!-- Propiedades de configuración JPA -->
+            <property name="jakarta.persistence.schema-generation.database.action" value="drop-and-create"/> <!-- Crea/elimina tablas automáticamente -->
+            <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/> <!-- Driver JDBC de MySQL -->
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/personas?serverTimezone=America/Bogota"/> <!-- URL de conexión a BD -->
+            <property name="jakarta.persistence.jdbc.user" value="root"/> <!-- Usuario de BD -->
+            <property name="jakarta.persistence.jdbc.password" value="admin"/> <!-- Contraseña de BD -->
+        </properties>
+    </persistence-unit>
+</persistence>

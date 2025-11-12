@@ -1,0 +1,22 @@
+<!--Titulo de la app-->
+<h1>{{ title }}</h1>
+
+<!--Lista de personas-->
+<div class="lista-personas">
+  <h2>Lista de personas</h2>
+  <ul *ngIf="personas.length > 0; else noPersonas">
+    <li *ngFor="let persona of personas">
+      {{persona.nombre}} (ID: {{persona.idPersona}})
+      <button (click)="eliminar(persona.idPersona)">Eliminar</button>
+    </li>
+  </ul>
+  <ng-template #noPersonas>
+    <p>No hay Personas.</p>
+  </ng-template>
+</div>
+
+<div class="form-persona">
+  <h2>Agregar Persona</h2>
+  <input [(ngModel)]="nuevoNombre" placeholder="Nombre" />
+  <button (click)="agregar()">Agregar</button>
+</div>
