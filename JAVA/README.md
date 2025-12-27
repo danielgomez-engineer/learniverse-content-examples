@@ -6,6 +6,7 @@ Esta sección de Learniverse está dedicada a Java, el ecosistema de Spring Boot
 
 | Módulo (Subtema) | Descripción | Enlace a Contenido |
 | :--- | :--- | :--- |
+| **Anotaciones en Java** | Guía completa de todas las anotaciones: Lombok, Validation, JPA, Spring y Spring Web. | [Abrir Módulo](java-annotations/README.md) |
 | **Spring Boot APIs REST con JPA** | Guía para construir servicios RESTful y gestionar la persistencia de datos. | [Abrir Módulo](spring-boot-apis-jpa/README.md) |
 | **Java Core Básico** | Fundamentos de Java, POO, y estructuras de datos. | ⏳ Próximamente... | |
 | **Spring Security (JWT)** | Implementación de autenticación y autorización moderna. | ⏳ Próximamente... |
